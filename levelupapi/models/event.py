@@ -4,6 +4,7 @@ from django.contrib.auth.models import User
 
 
 class Event(models.Model):
+    
     date_of_event = models.DateField()
     start_time = models.TimeField()
     location = models.CharField(max_length=100)
